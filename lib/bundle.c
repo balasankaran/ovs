@@ -35,6 +35,8 @@
 #include "openvswitch/vlog.h"
 #include "util.h"
 
+#warning "Inside bundle.c file"
+
 VLOG_DEFINE_THIS_MODULE(bundle);
 
 static ofp_port_t

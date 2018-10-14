@@ -31,6 +31,8 @@
 #include "svec.h"
 #include "openvswitch/vlog.h"
 
+#warning "You're here"
+
 VLOG_DEFINE_THIS_MODULE(unixctl);
 
 COVERAGE_DEFINE(unixctl_received);

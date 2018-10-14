@@ -44,6 +44,8 @@
 #include "unixctl.h"
 #include "reconnect.h"
 
+#warning "Inside netdev-dummy.c file"
+
 VLOG_DEFINE_THIS_MODULE(netdev_dummy);
 
 #define C_STATS_SIZE 2

@@ -24,6 +24,8 @@
 #include "openvswitch/vlog.h"
 #include "util.h"
 
+#warning "In ofp-bundle.c file"
+
 VLOG_DEFINE_THIS_MODULE(ofp_bundle);
 
 /* Destroys 'bms'. */
